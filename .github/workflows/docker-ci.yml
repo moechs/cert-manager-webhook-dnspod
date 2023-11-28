@@ -15,11 +15,11 @@ on:
     - chart/**
 
 env:
-  REGISTRY_IMAGE: imroc/cert-manager-webhook-dnspod
+  REGISTRY_IMAGE: moechs/cert-manager-webhook-dnspod
 
 jobs:
   build:
-    if: github.repository == 'imroc/cert-manager-webhook-dnspod'
+    if: github.repository == 'moechs/cert-manager-webhook-dnspod'
     runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
